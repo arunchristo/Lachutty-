@@ -24,7 +24,7 @@ Project created by <a href="https://github.com/arunchristo">arunchristo</a> to m
 
   ### Simple Method
  
-[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@HUSNIV2/Maalutty_V2-QR)
+[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/https://replit.com/@HUSNIV2/MAALUTTY-QR)
   
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/arunchristo/Maalutty_V2) 
