@@ -1,8 +1,6 @@
 /* Copyright (C) 2020 Yusuf Usta.
-
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
-
 WhatsAsena - Yusuf Usta
 */
 
@@ -100,7 +98,6 @@ async function whatsAsena () {
     conn.on('connecting', async () => {
         console.log(`${chalk.green.bold('Whats')}${chalk.blue.bold('Asena')}
 ${chalk.white.bold('Version:')} ${chalk.red.bold(config.VERSION)}
-
 ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
     });
     
@@ -137,7 +134,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
         });
 
         console.log(
-            chalk.green.bold('✅ ❤️MAALUTTY💙 working aan😎!')
+            chalk.green.bold('✅ ❤️LACHUTTY 💙 working aan😎!')
         );
         await new Promise(r => setTimeout(r, 1100));
 
@@ -162,7 +159,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                     })
                 }
                 else {
-                    await conn.sendMessage(conn.user.jid, '*❤️MAALUTTY💙 BOT ELLAM SETTAYI😇*', MessageType.text);
+                    await conn.sendMessage(conn.user.jid, '*❤️LACHUTTY 💙 BOT ELLAM SETTAYI😇*', MessageType.text);
                 }
             }
             else {
@@ -184,7 +181,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                     })
                 }
                 else {
-                    await conn.sendMessage(conn.user.jid, '*❤️MAALUTTY💙 BOT ELLAM SETTAYI😇*', MessageType.text);
+                    await conn.sendMessage(conn.user.jid, '*❤️LACHUTTY 💙 BOT ELLAM SETTAYI😇*', MessageType.text);
                 }
 
             }
@@ -233,7 +230,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                 }
                 else {
 
-                    await conn.sendMessage(conn.user.jid, '*❤️MAALUTTY💙 BOT ELLAM SETTAYI😇*', MessageType.text);
+                    await conn.sendMessage(conn.user.jid, '*❤️LACHUTTY 💙 BOT ELLAM SETTAYI😇*', MessageType.text);
                 }
             }
         }
@@ -330,14 +327,14 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
 
                 if ((command.on !== undefined && (command.on === 'image' || command.on === 'photo')
                     && msg.message && msg.message.imageMessage !== null && 
-                    (command.pattern === undefined || (command.pattern !== undefined && 
-                        command.pattern.test(text_msg)))) || 
+                    (command.pattern === undefined || (command.pattern !== undefined && 
+                        command.pattern.test(text_msg)))) || 
                     (command.pattern !== undefined && command.pattern.test(text_msg)) || 
                     (command.on !== undefined && command.on === 'text' && text_msg) ||
                     // Video
                     (command.on !== undefined && (command.on === 'video')
                     && msg.message && msg.message.videoMessage !== null && 
-                    (command.pattern === undefined || (command.pattern !== undefined && 
+                    (command.pattern === undefined || (command.pattern !== undefined && 
                         command.pattern.test(text_msg))))) {
 
                     let sendMsg = false;
@@ -345,14 +342,14 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                         
                     if ((config.SUDO !== false && msg.key.fromMe === false && command.fromMe === true &&
                         (msg.participant && config.SUDO.includes(',') ? config.SUDO.split(',').includes(msg.participant.split('@')[0]) : msg.participant.split('@')[0] == config.SUDO || config.SUDO.includes(',') ? config.SUDO.split(',').includes(msg.key.remoteJid.split('@')[0]) : msg.key.remoteJid.split('@')[0] == config.SUDO)
-                    ) || command.fromMe === msg.key.fromMe || (command.fromMe === false && !msg.key.fromMe)) {
+                    ) || command.fromMe === msg.key.fromMe || (command.fromMe === false && !msg.key.fromMe)) {
                         if (command.onlyPinned && chat.pin === undefined) return;
                         if (!command.onlyPm === chat.jid.includes('-')) sendMsg = true;
                         else if (command.onlyGroup === chat.jid.includes('-')) sendMsg = true;
                     }
                     if ((config.YAK !== false && msg.key.fromMe === false && command.fromMe === true &&
                         (msg.participant && config.YAK.includes(',') ? config.YAK.split(',').includes(msg.participant.split('@')[0]) : msg.participant.split('@')[0] == config.YAK || config.YAK.includes(',') ? config.YAK.split(',').includes(msg.key.remoteJid.split('@')[0]) : msg.key.remoteJid.split('@')[0] == config.YAK)
-                    ) || command.fromMe === msg.key.fromMe || (command.fromMe === false && !msg.key.fromMe)) {
+                    ) || command.fromMe === msg.key.fromMe || (command.fromMe === false && !msg.key.fromMe)) {
                         if (command.onlyPinned && chat.pin === undefined) return;
                         if (!command.onlyPm === chat.jid.includes('-')) sendMsg = true;
                         else if (command.onlyGroup === chat.jid.includes('-')) sendMsg = true;
@@ -391,8 +388,8 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                                     'Gerçekleşen Hata: ' + error + '\n\n'
                                     , MessageType.text);
                             } else {
-                                await conn.sendMessage(conn.user.jid, '*~❤️MAALUTTY💙~*' +
-                                    '\n\n*🧞‍♂️ ' + error + '*\n\n```Report🥺 errors\njoin with \n https://chat.whatsapp.com/FO3JyZPm1ma3vHyEQjaToY``` ' 
+                                await conn.sendMessage(conn.user.jid, '*~❤️LACHUTTY 💙~*' +
+                                    '\n\n*🧞‍♂️ ' + error + '*\n\n```Report🥺 errors\njoin with \n https://chat.whatsapp.com/L2F3APQYpZXKH0oD1KAF2U``` ' 
                                     , MessageType.text);
                             }
                         }
