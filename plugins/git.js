@@ -10,7 +10,7 @@ Asena.addCommand({pattern: 'git', fromMe: false, desc: Lang.WP}, (async (message
     var r_text = new Array ();
     
     
-    r_text[0] = "https://i.ibb.co/YT0pW4x/Screenshot-2021-11-10-09-29-10-1-1.png";
+    r_text[0] = "https://i.ibb.co/S7sdb68/IMG-20211119-WA0219.jpg";
     
     
     var i = Math.floor(1*Math.random())
