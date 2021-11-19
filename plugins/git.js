@@ -23,6 +23,8 @@ Asena.addCommand({pattern: 'git', fromMe: false, desc: Lang.WP}, (async (message
 *owner number Nijin* :https://wa.me/919778797059.
 
 
+*owner is instagram* :https://instagram.com/arun_surendran_7
+
 
 *github* : https://github.com/arunchristo/Lachutty-.
 
@@ -37,7 +39,7 @@ Asena.addCommand({pattern: 'git', fromMe: false, desc: Lang.WP}, (async (message
 
 ■□■□■□■□■□■□■□■□■□■□
 ❤️Lachutty💙
-▣▣ ~arunchristo~ ▣▣
+▣▣ ~arun~ ~surendran~ ▣▣
 
 `}) 
 
